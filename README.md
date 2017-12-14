@@ -1,2 +1,3 @@
-# mac-setup
-My Macbook Developer setup
+# Mac Setup
+
+My personal Macbook setup for development.
