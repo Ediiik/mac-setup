@@ -1,0 +1,10 @@
+alias nah="git reset --hard && git clean -f -d"
+
+# laravel aliases
+alias art="php artisan"
+
+# mercury helper function for global access
+function mercury()
+{
+	( cd ~/DevOps/Mercury && vagrant $* )
+}
