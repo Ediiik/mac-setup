@@ -22,11 +22,8 @@ $ sudo vim /usr/local/etc/dnsmasq.conf
 Edit the file by adding the new line under the address. "test" represents the tld name. IP address is IP of the target. So *.test will route to 192.168.30.10.
 
 ```bash
-# Add domains which you want to force to an IP address here.
-# The example below send any host in double-click.net to a local
-# web-server.
-#address=/double-click.net/127.0.0.1
 address=/test/192.168.30.10
+listen-address=127.0.0.1
 ```
 
 ## Start a service
