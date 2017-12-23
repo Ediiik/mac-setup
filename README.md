@@ -22,7 +22,8 @@ Tools I use while working...
 - [Homebrew](https://brew.sh/)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Composer](https://getcomposer.org/)
-- [Node.js](https://nodejs.org/en/)
+- Node.js (`brew install node`)
+- Dnsmasq (`brew install dnsmasq`) - setup dnsmasq for wildcard hosts [here](./dnsmasq-setup.md)
 
 #### iTerm 2
 
